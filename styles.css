@@ -1,152 +1,99 @@
-/* Base Styles */
-:root {
-    --main-color: #4CAF50; /* Change this to customize the main color */
-    --text-color: #333;
-    --background-color: #f4f4f4;
-    --header-background-color: #333;
-    --header-text-color: #fff;
-}
-
+/* General Styles */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--background-color);
-    color: var(--text-color);
-    line-height: 1.6;
-    overflow-x: hidden;
+    box-sizing: border-box;
+    color: #333;
 }
 
-/* Container */
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-/* Header */
-header {
-    height: 100vh;
-    background: url('path/to/header-image.jpg') no-repeat center center/cover;
-    color: var(--header-text-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #4CAF50, #2E7D32);
+    color: white;
     text-align: center;
-    position: relative;
+    padding: 100px 20px;
 }
 
-header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.5); /* Change the opacity as needed */
-}
-
-header .container {
-    position: relative;
-    z-index: 2;
-}
-
-header h1 {
+.hero-content h1 {
     font-size: 3rem;
     margin: 0;
 }
 
-header p {
+.hero-content p {
     font-size: 1.5rem;
+    margin: 20px 0;
 }
 
-header .social-links {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-header .social-links li {
-    margin: 0 10px;
-}
-
-header .social-links a {
-    color: var(--header-text-color);
-    font-size: 1.5rem;
+.cta-button {
+    background-color: #fff;
+    color: #4CAF50;
+    padding: 10px 20px;
     text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-/* Parallax Section */
-.parallax {
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+.cta-button:hover {
+    background-color: #4CAF50;
+    color: white;
 }
 
-/* Sections */
-section {
-    padding: 60px 0;
-    border-bottom: #ccc 1px solid;
-}
-
-section:last-child {
-    border: none;
-}
-
-h2 {
-    color: var(--main-color);
+/* About Section */
+.about {
+    padding: 50px 20px;
     text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
-p, ul {
-    margin: 0 0 10px 0;
+.about p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
 }
 
-ul {
-    padding-left: 20px;
+/* Projects Section */
+.projects {
+    padding: 50px 20px;
+    background-color: #f5f5f5;
 }
 
-ul li {
-    background: #fff;
-    margin: 5px 0;
-    padding: 10px;
-    border: #ccc 1px solid;
-}
-
-.skills-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.skill {
-    background: #fff;
-    padding: 20px;
-    margin: 10px;
-    flex-basis: 30%;
+.projects h2 {
     text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
-.skill i {
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: var(--main-color);
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.project {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #4CAF50;
 }
 
 /* Footer */
-footer {
-    background: var(--header-background-color);
-    color: var(--header-text-color);
+.footer {
+    background-color: #333;
+    color: white;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-}
-
-footer p {
-    margin: 0;
+    padding: 20px;
 }
