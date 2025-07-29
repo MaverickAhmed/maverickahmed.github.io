@@ -80,8 +80,8 @@ const HeroSection = () => {
                   <div className="text-sm text-muted-foreground">Projects Delivered</div>
                 </div>
                 <div className="text-center p-4 bg-card/50 rounded-xl border border-accent/30">
-                  <div className="text-2xl font-bold text-highlight">24/7</div>
-                  <div className="text-sm text-muted-foreground">System Reliability</div>
+                  <div className="text-2xl font-bold text-highlight">100%</div>
+                  <div className="text-sm text-muted-foreground">Job Success</div>
                 </div>
               </div>
             </div>

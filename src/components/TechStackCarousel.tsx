@@ -9,7 +9,7 @@ const TechStackCarousel = () => {
   const techStack = [
     {
       category: "Microcontrollers",
-      technologies: ["STM32", "PIC32", "ARM Cortex-M", "ESP32", "Arduino"]
+      technologies: ["STM32", "PIC32", "ARM Cortex-M", "ESP32", "Arduino", "AVR"]
     },
     {
       category: "Development Tools",
@@ -21,12 +21,12 @@ const TechStackCarousel = () => {
     },
     {
       category: "Protocols",
-      technologies: ["CAN Bus", "SPI", "I2C", "UART", "LoRaWAN", "BLE"]
+      technologies: ["CAN Bus", "SPI", "I2C", "UART", "LoRaWAN", "BLE", "WIFI", "RS485"]
     },
-    {
-      category: "Design & Simulation",
-      technologies: ["Altium Designer", "KiCad", "LTSpice", "Proteus", "SolidWorks"]
-    },
+    // {
+    //   category: "Design & Simulation",
+    //   technologies: ["Altium Designer", "KiCad", "LTSpice", "Proteus", "SolidWorks"]
+    // },
     {
       category: "Standards",
       technologies: ["ISO 26262", "MISRA-C", "AUTOSAR", "DO-178C", "IEC 61508"]

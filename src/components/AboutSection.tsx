@@ -1,4 +1,4 @@
-import { Calendar, MapPin, Code, Cpu, Zap, Settings } from 'lucide-react';
+import { Calendar, MapPin, Code, Cpu, Zap, Settings, LucideChartSpline } from 'lucide-react';
 import TechStackCarousel from '@/components/TechStackCarousel';
 
 const AboutSection = () => {
@@ -18,7 +18,7 @@ const AboutSection = () => {
     {
       year: "2023",
       title: "Embedded Software Engineer",
-      company: "Oeceltech GmbH, Germany",
+      company: "Oxeltech GmbH, Germany",
       description: "Real-time embedded systems for driver monitoring and industrial automation"
     },
     {
@@ -42,10 +42,11 @@ const AboutSection = () => {
   ];
 
   const skills = [
-    { icon: Settings, label: "Architecture Design", description: "System design, hardware/software partitioning" },
+    { icon: Settings, label: "Architecture Design", description: "System design, hardware/software integration" },
     { icon: Cpu, label: "Real-time Systems", description: "RTOS, scheduling, interrupt handling" },
     { icon: Code, label: "Embedded C/C++", description: "MISRA-C compliant, optimized code" },
-    { icon: Zap, label: "Hardware Integration", description: "SPI, I2C, UART, GPIO, ADC/DAC" }
+    { icon: Zap, label: "Hardware Integration", description: "SPI, I2C, UART, GPIO, ADC/DAC" },
+    { icon: LucideChartSpline, label: "Algorithms", description: "AGC control, non-uniformity correction, gamma correction" }
   ];
 
   return (
@@ -67,10 +68,8 @@ const AboutSection = () => {
                 Professional Summary
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                With over 6 years of experience in embedded systems development, I specialize in 
-                real-time firmware for UAV control systems, IoT devices, and industrial automation. 
-                I'm passionate about writing clean, efficient code that meets strict timing requirements 
-                and safety standards.
+                With over 4 years of experience in embedded systems development, I specialize in 
+                real-time firmware for UAV control systems, IoT devices, and optoelectronics. 
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 My expertise spans from low-level hardware abstraction to high-level system architecture, 

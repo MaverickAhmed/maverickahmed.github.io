@@ -42,7 +42,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand Section */}
           <div className="space-y-4">
-            <h3 className="text-xl font-semibold">Embedded Systems Engineer</h3>
+            <h3 className="text-xl font-semibold">Muhammad Ahmed Raza</h3>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
               Crafting reliable, real-time firmware solutions that power the future of connected devices and autonomous systems.
             </p>
@@ -94,13 +94,13 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-primary-foreground/20 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="text-sm text-primary-foreground/60">
-            © {currentYear} Embedded Systems Engineer. All rights reserved.
+            © {currentYear} Muhammad Ahmed Raza. All rights reserved.
           </div>
-          <div className="flex items-center gap-1 text-sm text-primary-foreground/60">
+          {/* <div className="flex items-center gap-1 text-sm text-primary-foreground/60">
             <span>Built with</span>
             <Heart size={14} className="text-red-400" />
             <span>and precision engineering</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
