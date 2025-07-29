@@ -32,7 +32,7 @@ const ContactSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Get In Touch</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Ready to collaborate on your next embedded systems project? 
-            I'm always interested in discussing challenging real-time applications and innovative IoT solutions.
+            {/* I'm always interested in discussing challenging real-time applications and innovative IoT solutions. */}
           </p>
         </div>
 
@@ -96,8 +96,7 @@ const ContactSection = () => {
               <span>Dubai, United Arab Emirates</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Available for full-time opportunities, consulting projects, and technical collaborations.
-              Open to remote work and occasional travel for on-site development.
+              Available for opportunities, consulting projects, and technical collaborations.
             </p>
           </div>
         </div>

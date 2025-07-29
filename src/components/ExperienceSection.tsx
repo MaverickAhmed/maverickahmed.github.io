@@ -33,7 +33,7 @@ const ExperienceSection = () => {
     },
     {
       title: "Embedded Software Engineer",
-      company: "Oeceltech GmbH, Germany",
+      company: "Oxeltech GmbH, Germany",
       location: "Remote from Home Office",
       period: "June 2023 - Sept 2023",
       type: "Full-time",
@@ -90,7 +90,7 @@ const ExperienceSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Experience</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             A proven track record of delivering robust embedded solutions across diverse industries,
-            from automotive safety systems to cutting-edge UAV technology.
+            from thermal surveillance systems to cutting-edge UAV technology.
           </p>
         </div>
 

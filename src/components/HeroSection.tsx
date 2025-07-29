@@ -25,7 +25,7 @@ const HeroSection = () => {
         <img 
           src={heroImage} 
           alt="Circuit board background"
-          className="w-full h-full object-cover opacity-40"
+          className="w-full h-full object-cover opacity-60"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-background/50 to-accent/30" />
       </div>
@@ -72,11 +72,11 @@ const HeroSection = () => {
             <div className={`hero-fade-up ${isVisible ? 'animate' : ''}`} style={{ animationDelay: '0.6s' }}>
               <div className="grid md:grid-cols-3 gap-4 mb-12">
                 <div className="text-center p-4 bg-card/50 rounded-xl border border-accent/30">
-                  <div className="text-2xl font-bold text-highlight">10+</div>
+                  <div className="text-2xl font-bold text-highlight">4+</div>
                   <div className="text-sm text-muted-foreground">Years Experience</div>
                 </div>
                 <div className="text-center p-4 bg-card/50 rounded-xl border border-accent/30">
-                  <div className="text-2xl font-bold text-highlight">50+</div>
+                  <div className="text-2xl font-bold text-highlight">25+</div>
                   <div className="text-sm text-muted-foreground">Projects Delivered</div>
                 </div>
                 <div className="text-center p-4 bg-card/50 rounded-xl border border-accent/30">

@@ -22,6 +22,12 @@ const AboutSection = () => {
       description: "Real-time embedded systems for driver monitoring and industrial automation"
     },
     {
+      year: "2023",
+      title: "B.S. Electrical Engineering",
+      company: "National University of Sciences and Technology (NUST)",
+      description: "Graduated with specialization in embedded systems and hardware design"
+    },
+    {
       year: "2022",
       title: "Embedded Research Assistant",
       company: "NUST - Communication Systems Lab",
@@ -32,12 +38,6 @@ const AboutSection = () => {
       title: "Hardware Design Intern",
       company: "NUST - Integrated Circuit Design",
       description: "RISC processor design, silicon bring-up, and FPGA development"
-    },
-    {
-      year: "2023",
-      title: "B.S. Electrical Engineering",
-      company: "National University of Sciences and Technology (NUST)",
-      description: "Graduated with specialization in embedded systems and hardware design"
     }
   ];
 
@@ -54,8 +54,7 @@ const AboutSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">About Me</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            An embedded systems engineer with a passion for creating reliable, efficient firmware 
-            that bridges the gap between hardware and software in critical applications.
+            I combine hands-on embedded engineering with a systems-thinking mindset. I lead with clarity, debug with persistence, and keep the bigger picture in view.
           </p>
         </div>
 
