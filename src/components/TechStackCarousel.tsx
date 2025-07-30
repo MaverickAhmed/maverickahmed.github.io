@@ -13,20 +13,22 @@ const TechStackCarousel = () => {
     },
     {
       category: "Development Tools",
-      technologies: ["MATLAB", "Simulink", "Git", "SVN", "IAR Embedded Workbench"]
+      technologies: ["MATLAB", "Simulink", "Git", "MathCAD"]
+      // technologies: ["MATLAB", "Simulink", "Git", "Gerrit", "SVN", "IAR Embedded Workbench"]
     },
     {
       category: "RTOS & Firmware",
-      technologies: ["FreeRTOS", "Zephyr", "ThreadX", "Custom RTOS", "Bare Metal"]
+      technologies: ["FreeRTOS", "Assembly", "Bare Metal", "GDB", "QEMU"]
+      // technologies: ["FreeRTOS", "Zephyr", "ThreadX", "Custom RTOS", "Bare Metal"]
     },
     {
       category: "Protocols",
       technologies: ["CAN Bus", "SPI", "I2C", "UART", "LoRaWAN", "BLE", "WIFI", "RS485"]
     },
-    // {
-    //   category: "Design & Simulation",
-    //   technologies: ["Altium Designer", "KiCad", "LTSpice", "Proteus", "SolidWorks"]
-    // },
+    {
+      category: "Programming Languages",
+      technologies: ["C", "C++", "Python", "C#", "Bash"]
+    },
     {
       category: "Standards",
       technologies: ["ISO 26262", "MISRA-C", "AUTOSAR", "DO-178C", "IEC 61508"]

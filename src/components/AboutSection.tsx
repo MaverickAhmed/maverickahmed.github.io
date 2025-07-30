@@ -4,45 +4,45 @@ import TechStackCarousel from '@/components/TechStackCarousel';
 const AboutSection = () => {
   const milestones = [
     {
-      year: "2024",
-      title: "Senior Firmware Design Engineer",
-      company: "SHIBLI Electronics Ltd.",
+      year: "2025",
+      title: "Sr. Firmware Design Engineer & Consultant",
+      company: "SHIBLI Electronics Ltd., UAE",
       description: "Leading thermal sight development and real-time multi-sensor target localization"
     },
+    // {
+    //   year: "2024",
+    //   title: "Senior Firmware Design Engineer",
+    //   company: "SHIBLI Electronics Ltd.",
+    //   description: "Leading thermal sight development and real-time multi-sensor target localization"
+    // },
     {
       year: "2023",
-      title: "Associate Electronics Design",
-      company: "SHIBLI Electronics Ltd.",
-      description: "Thermal device upgrades and firmware development tools"
+      title: "Delivered UAVs & Industrial Embedded Projects",
+      company: "NUST, PK | Oxeltech GmbH, Germany",
+      description: "UAV swarm networks and autonomous flight control systems. Real-time embedded systems for driver monitoring"
     },
-    {
-      year: "2023",
-      title: "Embedded Software Engineer",
-      company: "Oxeltech GmbH, Germany",
-      description: "Real-time embedded systems for driver monitoring and industrial automation"
-    },
-    {
-      year: "2023",
-      title: "B.S. Electrical Engineering",
-      company: "National University of Sciences and Technology (NUST)",
-      description: "Graduated with specialization in embedded systems and hardware design"
-    },
-    {
-      year: "2022",
-      title: "Embedded Research Assistant",
-      company: "NUST - Communication Systems Lab",
-      description: "UAV swarm networks and autonomous flight control systems"
-    },
+    // {
+    //   year: "2022",
+    //   title: "Won Contract for UAVs Project",
+    //   company: "National University of Sciences and Technology (NUST)",
+    //   description: "Graduated with specialization in embedded systems and hardware design"
+    // },
     {
       year: "2021",
-      title: "Hardware Design Intern",
-      company: "NUST - Integrated Circuit Design",
-      description: "RISC processor design, silicon bring-up, and FPGA development"
+      title: "Elected President NUST Robotics Club",
+      company: "National University of Sciences and Technology (NUST)",
+      description: "Managed national events, and nurtured a strong technical community."
+    },
+    {
+      year: "2019",
+      title: "Started B.E. Electrical Engineering",
+      company: "National University of Sciences and Technology (NUST)",
+      description: "RISC processor design, silicon bring-up, and embedded development"
     }
   ];
 
   const skills = [
-    { icon: Settings, label: "Architecture Design", description: "System design, hardware/software integration" },
+    { icon: Settings, label: "Architecture Design", description: "System design, hardware/software integration, sensor fusion" },
     { icon: Cpu, label: "Real-time Systems", description: "RTOS, scheduling, interrupt handling" },
     { icon: Code, label: "Embedded C/C++", description: "MISRA-C compliant, optimized code" },
     { icon: Zap, label: "Hardware Integration", description: "SPI, I2C, UART, GPIO, ADC/DAC" },
