@@ -37,21 +37,21 @@ const HeroSection = () => {
           <div className="text-center lg:text-left flex-1">
             <div className={`hero-fade-up ${isVisible ? 'animate' : ''}`} style={{ animationDelay: '0.2s' }}>
               <div className="mb-6">
-                <p className="text-xl md:text-2xl text-highlight font-bold mb-3 tracking-wide">
+                <p className="text-xl md:text-2xl text-foreground font-bold mb-3 tracking-wide">
                   MUHAMMAD AHMED RAZA
                 </p>
-                <div className="w-32 h-1 bg-gradient-to-r from-highlight to-accent mx-auto lg:mx-0 rounded-full"></div>
+                {/* <div className="w-32 h-1 bg-gradient-to-r from-highlight to-accent mx-auto lg:mx-0 rounded-full"></div> */}
               </div>
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-8 leading-tight">
                 <span className="bg-gradient-to-r from-foreground via-highlight to-foreground bg-clip-text text-transparent">
                   EMBEDDED
                 </span>
                 <br />
-                <span className="bg-gradient-to-r from-highlight via-accent to-highlight bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-highlight via-foreground to-highlight bg-clip-text text-transparent">
                   SYSTEMS
                 </span>
                 <br />
-                <span className="text-highlight font-black text-5xl md:text-7xl lg:text-8xl">
+                <span className="bg-gradient-to-r from-highlight via-foreground to-highlight bg-clip-text text-transparent">
                   ARCHITECT
                 </span>
               </h1>
